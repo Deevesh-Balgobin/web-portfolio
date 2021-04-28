@@ -19,3 +19,7 @@
 .col {
     flex-grow: 1;
 }
+
+.form {
+     box-sizing: 100px solid black;
+}
