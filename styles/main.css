@@ -1,0 +1,21 @@
+.portfolio {
+    background-color:lightgrey;
+    width: 1024px;
+    margin: 0 auto;
+    
+    
+}
+    .container {
+
+    }
+.box{
+    border: 1px solid black;
+}
+
+.row {
+    display:flex;
+
+}
+.col {
+    flex-grow: 1;
+}
