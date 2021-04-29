@@ -1,37 +1,138 @@
 .portfolio {
     background-color:lightgrey;
-    width: 1024px;
+    width: 1348px;
     margin: 0 auto;
     
 }
 
 .logo{
-    position: absolute;
-    left: 400px;
+   float : left;
 }
 
+
 .search{
-    top: 90px;
-    left: 400px;
+    
+    top: 45px;
+    left: 300px;
     position: absolute;
 }
+
+.icon{
+    top: -5px;
+    right: -150px;
+    position: absolute;
+
+}
+
+nav{  
+    float: rignt;
+}
+
+
+header{ 
+    background:burlywood;
+}
+
+
+
+nav ul{
+    margin: 0;
+padding: 0;
+list-style:none;
+}
+
+nav li{
+    display:inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+    
+   
+}
+
+nav a {
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+
+
+.web{
+    text-align: center;  
+    background:whitesmoke;
+}
+
+
+
 
 
     .container {
-
+        text-align: center;
+        
     }
+
+
+      
+   
 .box{
     border: 1px solid black;
 }
 
-.row {
-    display:flex;
 
+
+
+.row {
+  
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding-bottom:20px;
+    padding-top: 20px;
+    justify-content:space-evenly;
+    
+    
+    
+  
 }
 .col {
     flex-grow: 1;
 }
 
-.form {
-     box-sizing: 100px solid black;
+.photo{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding-bottom:20px;
+    padding-top: 20px;
+    justify-content:space-evenly;
 }
+
+
+.text{
+    text-align: center;
+}
+
+.title{
+   text-align:center;
+   background:burlywood;
+    padding-bottom:5px;
+    padding-top: 5px;  
+}
+
+
+
+
+.right box{
+    background:whitesmoke;
+}
+.contactcontainer{
+    text-align:center;
+   
+}
+
+.contactcontainer2{
+    text-align:center;
+    background:whitesmoke;
+}
+

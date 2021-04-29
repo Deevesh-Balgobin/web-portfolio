@@ -12,54 +12,72 @@
 
 
 <body class = "portfolio">
- 
+ <header>
     <!-- logo -->
-  <center> <h1> <img src="images/FINAL LOGO 5.svg" alt = "" width = "200"/> </h1></center>
+   <h1> <img src="images/FINAL LOGO 5.svg" alt = "" width = "200"/> </h1>
 
   <!--search bar-->
+  
    <div class ="search">
-    <input type ="text" placeholder ="Search"size="70">
- 
-</div>
+    <input type ="text" placeholder ="Search"size="90" style="height:30px">
     
-    <center><h2>Welcome To My Web Portfolio</H2></center>
+    <!--icon-->
+    <div class = "icon">
+    <i class="fa fa-search fa-2x"></i >
+      <i class="fa fa-microphone fa-2x"></i>
+      Search
+    </div>
+    <!--nav-->
+    <nav>
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">home</a></li>
+        <li><a href="#">home</a></li>
+        <li><a href="#">home</a></li>
+      </ul>
+      
+      </nav>
 
-     
+    </div>
+</header>
 
-   <!--hero-->
-    <section class= "hero">
-      <img class = "img-full" src="./images/web cover 2.jpg" alt= ""/>
-      <div class= block-hero>
-        <h3> Main Title </h3>
-        <p> Some Other text</p>
-      </div>
-</section>
+<!--web title-->
+<div class ="web">
+<h2>Welcome To My Web Portfolio</H2>
+</div>
 
+    <!--web cover-->
+<div class = "container">
 
+  <img class = "img-full" src="./images/Webx.jpg" alt= ""/>
 
+</div>
+
+  
+  
 
 <!--3 tiles-->
 
-<div class = "conatiner">
+<div class = "contact">
   <div class= "row">
-    
-    <div class = "col"></div>
+
+
     <div class= "one-third">
-      <i class = "fa fa-camera retro fa 4x"></i>
+      <i class = "fa fa-camera retro fa-4x"></i>
       <h4> Title 1</h4>
       <p> some text</p>
   </div>
 
-    <div class = "col"></div>
     <div class= "one-third">
-      <i class="fa fa-bookmark" aria-hidden="true"></i>
+      <i class="fa fa-bookmark fa-4x" aria-hidden="true"></i>
       <h4> Title 2</h4>
       <p> some text</p>
     </div>
 
-<div class = "col"></div>
+
 <div class= "one-third">
-  <i class = "fa fa-certificate retro fa 4x"></i>
+  <i class = "fa fa-certificate retro fa-4x"></i>
+  
   <h4> Title 2</h4>
   <p> some text</p>
 </div>
@@ -68,35 +86,48 @@
 
 
 
+<!--photo-->
 
+<div class = "photo">
+<div class="half">
+  <img class = "img-full" src="./images/bed 3.jpg" alt= ""/>
 
-
-<section class =" row space-top-10">
-<div class= "one-third">
-  <i class = "fa fa-camera retro fa 4x"></i>
-  <h4> Title 1</h4>
-  <p> some text</p>
+</div>
+<div class= "half">
+  <div class= "text">
+  <p> sssssssssssssssssssssssssssssssssssssssssssssdadsadsadasxzxsdsadsadasdasdadsadscxxc
+    sdsadasdsadsadsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    
+  </p></div>
+</div>
 </div>
 
-<div class= "one-third">
-  <i class="fa fa-bookmark" aria-hidden="true"></i>
-  <h4> Title 2</h4>
-  <p> some text</p>
-</div>
 
-<div class= "one-third">
-  <i class = "fa fa-certificate retro fa 4x"></i>
-  <h4> Title 3</h4>
-  <p> some text</p>
+<!--title-->
+<div class="title">
+<h2> Portfolio</H2>
 </div>
-</section>
-
+<!--picture-->
+<div class= "row">
+<div class= "space">
+<img class = "img-full" src="./images/20210403_141109.jpg" alt= ""/>
+</div>
+<div class= "space">
+<img class = "img-full" src="./images/bed 4.jpg" alt= ""/>
+</div>
+<div class= "space">
+<img class = "img-full" src="./images/bed 5.jpg" alt= ""/>
+</div>
+</div>
+<!--form-->
 
 <div class="right box">
- <center> <h2 class="title2">Contact Us</h2></center>
   <div class="contactcontainer">
+  <h2 class="title2">Contact Us</h2>
+</div>
+  <div class="contactcontainer2">
       <form >
-        <div align= "center"> 
+         
           <label for="fname"><b>First Name</b></label>
           <br>
           <input type="text" id="fname" name="firstname" placeholder="Your name.."size="50">
@@ -111,7 +142,7 @@
           <br>
           <label for="subject"><b>Subject</b></label>
           <br>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" ></textarea>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"size="50"  ></textarea>
           <br>
           <button type="submit" class="submitbtn">Submit</button>
           <hr>
