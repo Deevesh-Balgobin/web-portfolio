@@ -1,5 +1,5 @@
 .portfolio {
-    background-color:lightgrey;
+    background-color:rgb(236, 236, 236);
     width: 1348px;
     margin: 0 auto;
     
@@ -12,17 +12,25 @@
 
 .search{
     
-    top: 45px;
+    top: 55px;
     left: 300px;
     position: absolute;
 }
 
+
 .icon{
-    top: -5px;
-    right: -150px;
+    top: -3px;
+    margin-right:100;
+    right: -170px;
     position: absolute;
 
 }
+.menu{
+    top:4px;
+    right: -300px;
+    position: absolute;
+}
+
 
 nav{  
     float: rignt;
@@ -69,15 +77,12 @@ nav a {
 
     .container {
         text-align: center;
-        
     }
 
 
       
    
-.box{
-    border: 1px solid black;
-}
+
 
 
 
@@ -95,18 +100,9 @@ nav a {
     
   
 }
-.col {
-    flex-grow: 1;
-}
 
-.photo{
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    padding-bottom:20px;
-    padding-top: 20px;
-    justify-content:space-evenly;
-}
+
+
 
 
 .text{
@@ -116,23 +112,59 @@ nav a {
 .title{
    text-align:center;
    background:burlywood;
-    padding-bottom:5px;
-    padding-top: 5px;  
-}
-
-
-
-
-.right box{
-    background:whitesmoke;
-}
-.contactcontainer{
-    text-align:center;
+    
    
 }
 
-.contactcontainer2{
-    text-align:center;
-    background:whitesmoke;
+
+.photo{
+    display:flex;
+   
+    margin-left: 105px;
+    margin-right:25;
+    
+    padding-bottom:10px;
+    padding-top: 20px;
+    justify-content:space-evenly;
 }
 
+.space{
+    padding-bottom:25px;
+    padding-top: 10px; 
+    
+}
+.about{
+    text-align:center;  
+    margin-right:80px;
+    margin-left:80;
+    background-color: rgb(187, 175, 161);
+    border: 3px dashed black;
+
+}
+.content{
+    text-align:center;
+    margin-right:80px;
+    margin-left:80;
+    padding-bottom:5px;
+    padding-top: 10px;
+    background:whitesmoke;
+    border: 3px dashed black;
+}
+
+.contactcontainer{
+    text-align:center;
+   margin-right: 300px;
+margin-left:300px;
+background:whitesmoke;
+
+}
+.contactcontainer2{
+    text-align:center;
+margin-right: 300px;
+margin-left:300px;
+    background:whitesmoke;
+
+}
+.bottom{
+    text-align:center;  
+}
