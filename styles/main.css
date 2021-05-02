@@ -32,9 +32,7 @@
 }
 
 
-nav{  
-    float: rignt;
-}
+
 
 
 header{ 
@@ -43,30 +41,15 @@ header{
 
 
 
-nav ul{
-    margin: 0;
-padding: 0;
-list-style:none;
-}
 
-nav li{
-    display:inline-block;
-    margin-left: 70px;
-    padding-top: 25px;
     
    
-}
-
-nav a {
-    color:black;
-    text-decoration: none;
-    text-transform: uppercase;
-
-}
 
 
 
 .web{
+    margin-left: 105px;
+    margin-right:105px;
     text-align: center;  
     background:whitesmoke;
 }
@@ -83,7 +66,12 @@ nav a {
       
    
 
-
+.follow{
+    margin-left: 105px;
+    margin-right:105px;
+    background:whitesmoke;
+    text-align:center;
+}
 
 
 
@@ -92,6 +80,8 @@ nav a {
     display:flex;
     align-items:center;
     justify-content: center;
+    margin-left: 53px;
+    margin-right:53px;
     padding-bottom:20px;
     padding-top: 20px;
     justify-content:space-evenly;
@@ -102,17 +92,31 @@ nav a {
 }
 
 
+.facebook{
+    text-align:center;
+}
 
+.one-third{
+    text-align:center;
+    
+}
 
 
 .text{
     text-align: center;
+    margin-right:80px;
+    margin-left: 50px;
+    padding-top:10px;
+    padding-bottom:-10px;
+    background:whitesmoke;
 }
 
 .title{
    text-align:center;
-   background:burlywood;
-    
+   background:whitesmoke;
+   margin-left: 105px;
+   margin-right:105px;
+   
    
 }
 
@@ -135,33 +139,34 @@ nav a {
 }
 .about{
     text-align:center;  
-    margin-right:80px;
-    margin-left:80;
+    margin-right:105px;
+    margin-left:105px;
     background-color: rgb(187, 175, 161);
-    border: 3px dashed black;
+    border: 3px ridge black;
 
 }
 .content{
     text-align:center;
-    margin-right:80px;
-    margin-left:80;
+    margin-right:105px;
+    margin-left:105px;
     padding-bottom:5px;
     padding-top: 10px;
     background:whitesmoke;
-    border: 3px dashed black;
+    border: 3px ridge black;
 }
 
 .contactcontainer{
     text-align:center;
-   margin-right: 300px;
-margin-left:300px;
+   margin-right: 105px;
+margin-left:105px;
 background:whitesmoke;
 
 }
 .contactcontainer2{
     text-align:center;
-margin-right: 300px;
-margin-left:300px;
+    padding-top: 10px;
+margin-right: 105px;
+margin-left:105px;
     background:whitesmoke;
 
 }
