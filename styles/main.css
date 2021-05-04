@@ -53,14 +53,20 @@ header{
     text-align: center;  
     background:whitesmoke;
 }
+@media only screen and (min-width:1200px){
+.contact{
+    width:1200px;
+margin:0 auto;
+}
 
-
-
-
-
+}
     .container {
+        
         text-align: center;
     }
+
+
+    
 
 
       
@@ -85,7 +91,7 @@ header{
     padding-bottom:20px;
     padding-top: 20px;
     justify-content:space-evenly;
-    
+    flex-direction: column;
     
     
   
@@ -95,6 +101,7 @@ header{
 .facebook{
     text-align:center;
 }
+
 
 .one-third{
     text-align:center;
@@ -120,7 +127,9 @@ header{
    
 }
 
-
+@media only screen and (min-width:768px){
+    .row{ flex-direction:row;}
+}
 .photo{
     display:flex;
    
@@ -130,6 +139,7 @@ header{
     padding-bottom:10px;
     padding-top: 20px;
     justify-content:space-evenly;
+   
 }
 
 .space{
@@ -168,6 +178,7 @@ background:whitesmoke;
 margin-right: 105px;
 margin-left:105px;
     background:whitesmoke;
+    
 
 }
 .bottom{
