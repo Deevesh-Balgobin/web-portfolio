@@ -1,8 +1,10 @@
+
+
 .portfolio {
     background-color:rgb(236, 236, 236);
-    width: 1348px;
-    margin: 0 auto;
     
+    margin: 0 auto;
+  
 }
 
 .logo{
@@ -36,15 +38,13 @@
 
 
 header{ 
+  
     background:burlywood;
-    
+  
+  
 }
 
 
-
-
-    
-   
 
 
 
@@ -61,14 +61,33 @@ header{
     .container {
         
         text-align: center;
+        width: auto;
+        height: auto;
+
+    }
+    
+    .box{
+        border: 1px rgb(255, 0, 0);
     }
 
+    .crow{
+        display:flex;
+        flex-direction: column;
 
+    }
+
+.col{
+    flex-grow: 1;
+}
     
-
-
-      
    
+  
+@media only screen and (min-width:768px){
+.crow {
+    flex-direction: row;
+}
+
+} 
 
 .follow{
     margin-left: 105px;
@@ -77,8 +96,10 @@ header{
     text-align:center;
 }
 
+@media only screen and (min-width:768px){
 
 
+}
 .row {
   
     display:flex;
@@ -125,9 +146,8 @@ header{
    
 }
 
-@media only screen and (min-width:768px){
-    .row{ flex-direction:row;}
-}
+
+
 .photo{
    
 
@@ -143,6 +163,7 @@ header{
     
     
 }
+
 .half {
   
     display:flex;
@@ -200,16 +221,14 @@ header{
     padding-bottom:10px;
     padding-top: 10px;
    
-  
-   
-  
+
 
 
 }
 
 
     
-    
+
 
 .contactcontainer2{
 
@@ -226,4 +245,241 @@ header{
 
 .bottom{
     text-align:center;  
+}
+
+
+
+@media screen and (min-width:320px){
+
+
+    .portfolio {
+        background-color:rgb(236, 236, 236);
+        width: 1348px;
+        margin: 0 auto;
+      
+    }
+    
+    .logo{
+       float : left;
+    }
+    
+    
+    .search{
+        
+        top: 55px;
+        left: px;
+        position: absolute;
+    }
+    
+    
+    .icon{
+        top: -3px;
+        margin-right:100;
+        right: -170px;
+        position: absolute;
+    
+    }
+    .menu{
+        top:4px;
+        right: -300px;
+        position: absolute;
+    }
+    
+    
+    
+    
+    
+    header{ 
+      
+        background:burlywood;
+      
+      
+    }
+    
+    
+    
+    
+    
+    .web{
+        margin-left: 105px;
+        margin-right:105px;
+        text-align: center;  
+        background:whitesmoke;
+    }
+    
+    
+    
+    
+        .container {
+            
+            text-align: center;
+            width: auto;
+            height: auto;
+    
+        }
+        
+    
+        
+    
+    
+          
+       
+    
+    .follow{
+        margin-left: 105px;
+        margin-right:105px;
+        background:whitesmoke;
+        text-align:center;
+    }
+    
+    
+    
+    .row {
+      
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        margin-left: 53px;
+        margin-right:53px;
+        padding-bottom:20px;
+        padding-top: 20px;
+        justify-content:space-evenly;
+        flex-direction: column;
+        
+        
+      
+    }
+    
+    
+    .facebook{
+        text-align:center;
+    }
+    
+    
+    .one-third{
+        text-align:center;
+        
+    }
+    
+    
+    .text{
+        text-align: center;
+        margin-right:80px;
+        margin-left: 50px;
+        padding-top:10px;
+        padding-bottom:-10px;
+        background:whitesmoke;
+    }
+    
+    .title{
+       text-align:center;
+       background:whitesmoke;
+       margin-left: 105px;
+       margin-right:105px;
+       
+       
+    }
+    
+    
+    
+    .photo{
+       
+    
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        margin-left: 53px;
+        margin-right:53px;
+        padding-bottom:20px;
+        padding-top: 20px;
+        justify-content:space-evenly;
+        flex-direction: column;
+        
+        
+    }
+    
+    .half {
+      
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        margin-left: 53px;
+        margin-right:53px;
+        padding-bottom:20px;
+        padding-top: 20px;
+        justify-content:space-evenly;
+        flex-direction: column;
+        
+        
+      
+    }
+    
+    .space{
+        padding-bottom:25px;
+        padding-top: 10px; 
+        
+    }
+    .about{
+        display:flex;
+        text-align:center;  
+        margin-right:105px;
+        margin-left:105px;
+        background-color: rgb(187, 175, 161);
+        border: 3px ridge black;
+        flex-direction: column;
+    }
+    
+    .content{
+        
+        text-align:center;
+        margin-right:105px;
+        margin-left:105px;
+        padding-bottom:5px;
+        padding-top: 10px;
+        background:whitesmoke;
+        border: 3px ridge black;
+      
+        
+        
+    }
+    
+    
+    .contactcontainer{
+     
+       
+        justify-content: center;
+        text-align:center;
+        margin-left: 105px;
+        margin-right:105px;
+        background:whitesmoke;
+        padding-bottom:10px;
+        padding-top: 10px;
+       
+    
+    
+    
+    }
+    
+    
+        
+    
+    
+    .contactcontainer2{
+    
+        justify-content: center;
+        text-align:center;
+        margin-left: 105px;
+        margin-right:105px;
+        background:whitesmoke;
+        padding-bottom:20px;
+        padding-top: 20px;
+    
+        
+    }
+    
+    .bottom{
+        text-align:center;  
+    }
+
+
 }
