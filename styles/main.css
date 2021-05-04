@@ -37,6 +37,7 @@
 
 header{ 
     background:burlywood;
+    
 }
 
 
@@ -53,13 +54,10 @@ header{
     text-align: center;  
     background:whitesmoke;
 }
-@media only screen and (min-width:1200px){
-.contact{
-    width:1200px;
-margin:0 auto;
-}
 
-}
+
+
+
     .container {
         
         text-align: center;
@@ -131,15 +129,34 @@ margin:0 auto;
     .row{ flex-direction:row;}
 }
 .photo{
-    display:flex;
    
-    margin-left: 105px;
-    margin-right:25;
-    
-    padding-bottom:10px;
+
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-left: 53px;
+    margin-right:53px;
+    padding-bottom:20px;
     padding-top: 20px;
     justify-content:space-evenly;
-   
+    flex-direction: column;
+    
+    
+}
+.half {
+  
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-left: 53px;
+    margin-right:53px;
+    padding-bottom:20px;
+    padding-top: 20px;
+    justify-content:space-evenly;
+    flex-direction: column;
+    
+    
+  
 }
 
 .space{
@@ -156,6 +173,7 @@ margin:0 auto;
 
 }
 .content{
+    display:flex;
     text-align:center;
     margin-right:105px;
     margin-left:105px;
@@ -163,23 +181,49 @@ margin:0 auto;
     padding-top: 10px;
     background:whitesmoke;
     border: 3px ridge black;
+    justify-content:space-evenly;
+    flex-direction: column;
 }
 
 .contactcontainer{
+    display:flex;
+   
+    justify-content: center;
     text-align:center;
-   margin-right: 105px;
-margin-left:105px;
+    margin-left: 53px;
+    margin-right:53px;
 background:whitesmoke;
+
+  
+    
+   
+    padding-bottom:20px;
+    padding-top: 20px;
+    justify-content:space-evenly;
+    flex-direction: column;
+    
+    
+  
+
 
 }
 .contactcontainer2{
+    display:flex;
+   
+    justify-content: center;
     text-align:center;
-    padding-top: 10px;
-margin-right: 105px;
-margin-left:105px;
-    background:whitesmoke;
-    
+    margin-left: 53px;
+    margin-right:53px;
+background:whitesmoke;
 
+  
+    
+   
+    padding-bottom:20px;
+    padding-top: 20px;
+    justify-content:space-evenly;
+    flex-direction: column;
+    
 }
 .bottom{
     text-align:center;  
