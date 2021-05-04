@@ -165,12 +165,13 @@ header{
     
 }
 .about{
+    display:flex;
     text-align:center;  
     margin-right:105px;
     margin-left:105px;
     background-color: rgb(187, 175, 161);
     border: 3px ridge black;
-
+    flex-direction: column;
 }
 .content{
     display:flex;
@@ -181,7 +182,7 @@ header{
     padding-top: 10px;
     background:whitesmoke;
     border: 3px ridge black;
-    justify-content:space-evenly;
+  
     flex-direction: column;
 }
 
