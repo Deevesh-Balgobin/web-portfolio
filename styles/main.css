@@ -173,8 +173,9 @@ header{
     border: 3px ridge black;
     flex-direction: column;
 }
+
 .content{
-    display:flex;
+    
     text-align:center;
     margin-right:105px;
     margin-left:105px;
@@ -183,49 +184,46 @@ header{
     background:whitesmoke;
     border: 3px ridge black;
   
-    flex-direction: column;
+    
+    
 }
+
 
 .contactcontainer{
-    display:flex;
+ 
    
     justify-content: center;
     text-align:center;
-    margin-left: 53px;
-    margin-right:53px;
-background:whitesmoke;
-
-  
-    
+    margin-left: 105px;
+    margin-right:105px;
+    background:whitesmoke;
+    padding-bottom:10px;
+    padding-top: 10px;
    
-    padding-bottom:20px;
-    padding-top: 20px;
-    justify-content:space-evenly;
-    flex-direction: column;
-    
-    
+  
+   
   
 
 
 }
+
+
+    
+    
+
 .contactcontainer2{
-    display:flex;
-   
+
     justify-content: center;
     text-align:center;
-    margin-left: 53px;
-    margin-right:53px;
-background:whitesmoke;
-
-  
-    
-   
+    margin-left: 105px;
+    margin-right:105px;
+    background:whitesmoke;
     padding-bottom:20px;
     padding-top: 20px;
-    justify-content:space-evenly;
-    flex-direction: column;
+
     
 }
+
 .bottom{
     text-align:center;  
 }
