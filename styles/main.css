@@ -98,13 +98,14 @@ header{
 }
 
 .box1{
-    border: 100px rgb(255, 0, 0);
+    
+    text-align:center;
 }
 
 .row{
     display:flex;
     flex-direction: column;
-
+  
 }
 
 .col{
@@ -127,7 +128,8 @@ flex-direction: row;
 }
 
 @media only screen and (min-width:768px){
-.row{flex-direction: row;}
+.row{flex-direction: row;
+  }
 
 }
 
