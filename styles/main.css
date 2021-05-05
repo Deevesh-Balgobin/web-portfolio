@@ -3,34 +3,25 @@
 .portfolio {
     background-color:rgb(236, 236, 236);
     
-    margin: 0 auto;
+   
   
 }
 
-.logo{
-   float : left;
-}
 
-
-.search{
-    
-    top: 40px;
-    left: 100px;
-    position: absolute;
-}
 
 
 .icon{
-    top: 40px;
+    top: 0px;
+    
   
-   left: 300px;
-    position: absolute;
+   left: 0px;
+    position: relative;
 
 }
 .menu{
-    top:40px;
-    left: 400px;
-    position: absolute;
+    top:0px;
+    left: 0px;
+    position: relative;
 }
 
 
@@ -40,13 +31,14 @@
 header{ 
   
     background:burlywood;
-    text-align: center;
+    
     margin-right:10px;
     margin-left: 10px;
     padding-top:10px;
     padding-bottom:10px;
     width: auto;
     height: 100px   ;
+    z-index: -1;
 
   
 }
@@ -55,20 +47,19 @@ header{
 .box4{
     
  
-    text-align: center;
-    margin-right:30px;
-    margin-left: 30px;
-    padding-top:10px;
-    padding-bottom:-10px;
+    text-align: right;
+    margin-right:0px;
+    margin-left: 0px;
+    padding-top:0px;
+    padding-bottom:0px;
     background:whitesmoke;
   }
   
   .row2{
       display:flex;
-      align-items: center;
+     
       flex-direction: column;
-    padding-top: 25px;
-   padding-bottom: 25px;
+  
    justify-content: space-evenly;
   }
   
@@ -80,7 +71,7 @@ header{
   
   
   @media only screen and (min-width:768px){
-  .row1 {
+  .row2 {
   flex-direction: row;
   }
   
@@ -106,7 +97,11 @@ header{
     }
     
     .box{
-        border: 1px rgb(255, 0, 0);
+        
+        margin-left: 10px;
+        margin-right: 10px;
+      
+
     }
 
     .crow{
@@ -139,6 +134,7 @@ header{
 .box1{
     
   text-align: center;
+  
 }
 
 .row{
@@ -192,27 +188,38 @@ flex-direction: row;
     
  
     text-align: center;
-    margin-right:30px;
-    margin-left: 30px;
+    
     padding-top:10px;
     padding-bottom:-10px;
-    background:whitesmoke;
+  
+   margin-right:100px;
+    margin-left: 20px;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: space-evenly;
+    z-index: -1;
   }
   
   .row1{
       display:flex;
-      align-items: center;
+     
       flex-direction: column;
-    padding-top: 25px;
-   padding-bottom: 25px;
-   justify-content: space-evenly;
+   
   }
   
   .col1{
   flex-grow: 1;
   }
 
-
+  .img-full1 {
+    width: 20%;
+    height: auto;
+    
+    align-items: center;
+    position: relative;
+    
+    }
   
   
   @media only screen and (min-width:768px){
@@ -248,8 +255,8 @@ flex-direction: row;
     display:flex;
     align-items:center;
     justify-content: center;
-    margin-left: 10px;
-    margin-right:10px;
+    margin-left: 25px;
+    margin-right:25px;
     padding-bottom:10px;
     padding-top: 10px;
     justify-content:space-evenly;
@@ -263,8 +270,8 @@ flex-direction: row;
     display:flex;
     align-items:center;
     justify-content: center;
-    margin-left: 53px;
-    margin-right:53px;
+    margin-left: 25px;
+    margin-right:25px;
     padding-bottom:20px;
     padding-top: 20px;
     justify-content:space-evenly;
