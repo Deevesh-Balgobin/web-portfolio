@@ -89,6 +89,36 @@ header{
 
 } 
 
+.contact {
+        
+    text-align: center;
+    width: auto;
+    height: auto;
+
+}
+
+.box1{
+    border: 100px rgb(255, 0, 0);
+}
+
+.row{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.col{
+flex-grow: 1;
+}
+
+
+
+@media only screen and (min-width:768px){
+.row {
+flex-direction: row;
+}
+
+} 
 .follow{
     margin-left: 105px;
     margin-right:105px;
@@ -100,21 +130,8 @@ header{
 .row{flex-direction: row;}
 
 }
-.row {
-  
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    margin-left: 53px;
-    margin-right:53px;
-    padding-bottom:20px;
-    padding-top: 20px;
-    justify-content:space-evenly;
-    flex-direction: column;
-    
-    
-  
-}
+
+
 
 
 .facebook{
