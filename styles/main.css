@@ -2,9 +2,8 @@
 
 .portfolio {
     background-color:rgb(236, 236, 236);
-    
    
-  
+
 }
 
 
@@ -52,7 +51,7 @@ header{
     margin-left: 0px;
     padding-top:0px;
     padding-bottom:0px;
-    background:whitesmoke;
+ 
   }
   
   .row2{
@@ -98,7 +97,7 @@ header{
     
     .box{
         
-        margin-left: 10px;
+        margin-left: 0px;
         margin-right: 10px;
       
 
@@ -188,17 +187,16 @@ flex-direction: row;
     
  
     text-align: center;
-    
-    padding-top:10px;
-    padding-bottom:-10px;
   
+    align-items: center;   
    margin-right:100px;
-    margin-left: 20px;
-    align-items: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    margin-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 60px;
     justify-content: space-evenly;
-    z-index: -1;
+    
+
+
   }
   
   .row1{
@@ -282,8 +280,8 @@ flex-direction: row;
 }
 
 .space{
-    padding-bottom:5px;
-    padding-top: 10px; 
+    padding-bottom:50px;
+    padding-top: 40px; 
     
 }
 .about{
