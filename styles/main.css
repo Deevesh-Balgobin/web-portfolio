@@ -93,6 +93,7 @@ header{
         width: auto;
         height: auto;
 
+
     }
     
     .box{
@@ -106,7 +107,8 @@ header{
     .crow{
         display:flex;
         flex-direction: column;
-
+      
+       
     }
 
 .col{
